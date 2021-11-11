@@ -14,12 +14,6 @@ Usual parameters with Savonia's moodle
 
 ## Publish
 
-1. add to project file 
-   ```
-    <PropertyGroup>
-        <PublishSingleFile>true</PublishSingleFile>
-    </PropertyGroup>   
-   ```
-2. run `dotnet publish -c Release -r win-x64`
+1. For Windows, run `dotnet publish -c Release -r win-x64 --self-contained`
 
 https://docs.microsoft.com/en-us/dotnet/core/deploying/single-file#publish-a-single-file-app---cli
