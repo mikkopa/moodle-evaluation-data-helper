@@ -1,5 +1,8 @@
 # Moodle Evaluation Data Converter
 
+>NOTE! The functionality of Moodle Evaluation Data Converter is moved to repo [https://github.com/savonia-cs/savonia-assignment-tool](https://github.com/savonia-cs/savonia-assignment-tool). All further development will hapen on that repo.
+
+
 A program to parse Moodle's task evaluation csv file.
 
 Reads csv data which is fetched from Moodle answers.
